@@ -8,5 +8,6 @@
   <modules>
     <module>files</module>
     <module>util-files</module>
+    <module>util-security</module>
   </modules>
 </project>
