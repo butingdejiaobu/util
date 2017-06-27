@@ -72,19 +72,4 @@
 
 	</dependencies>
 
-	<!-- 配置私服使用信息 -->
-	<repositories>
-		<repository>
-			<id>nexus-jar</id>
-			<name>Team Nexus jar Repository</name>
-			<url>http://10.110.13.14:8081/nexus/content/groups/inspur-loushang/</url>
-		</repository>
-	</repositories>
-	<pluginRepositories>
-		<pluginRepository>
-			<id>nexus-plugin</id>
-			<name>Team Nexus plugin Repository</name>
-			<url>http://10.110.13.14:8081/nexus/content/groups/inspur-loushang/</url>
-		</pluginRepository>
-	</pluginRepositories>
 </project>
