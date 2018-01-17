@@ -6,8 +6,8 @@
   <version>1.0</version>
   <packaging>pom</packaging>
   <modules>
-    <module>files</module>
     <module>util-files</module>
     <module>util-security</module>
+      <module>util-common</module>
   </modules>
 </project>
