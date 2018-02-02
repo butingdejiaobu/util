@@ -8,14 +8,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="util-common" />
         <module name="util-files" />
+        <module name="util-other" />
         <module name="util-security" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="util" target="1.5" />
+      <module name="util" target="1.8" />
       <module name="util-common" target="1.7" />
-      <module name="util-files" target="1.5" />
-      <module name="util-security" target="1.5" />
+      <module name="util-files" target="1.8" />
+      <module name="util-other" target="1.8" />
+      <module name="util-security" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

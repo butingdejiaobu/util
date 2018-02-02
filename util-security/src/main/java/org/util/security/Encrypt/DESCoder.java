@@ -73,7 +73,7 @@ public class DESCoder {
 	 * 
 	 * @param file
 	 *            已加密的文件 如c:/加密后文件.txt * 
-	 * @param destFile 解密后存放的文件名 如c:/
+	 * @param dest 解密后存放的文件名 如c:/
 	 *            test/解密后文件.txt
 	 * @param key 加密生成key
 	 *            
@@ -139,11 +139,11 @@ public class DESCoder {
 	 * @param key key(Base64编码）
 	 *            
 	 */
-	public void decryptByString(String file, String dest,String key){
+	public void decryptByString(String file, String destFile,String key){
 		try {
 			byte[] keyBytes = Coder.decryptBASE64(key);
 			Key keyObj=toKey(keyBytes);
-			decrypt(file, dest, keyObj);
+			decrypt(file, destFile, keyObj);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

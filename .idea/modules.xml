@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/util.iml" filepath="$PROJECT_DIR$/util.iml" />
       <module fileurl="file://$PROJECT_DIR$/util-common/util-common.iml" filepath="$PROJECT_DIR$/util-common/util-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/util-files/util-files.iml" filepath="$PROJECT_DIR$/util-files/util-files.iml" />
+      <module fileurl="file://$PROJECT_DIR$/util-other/util-other.iml" filepath="$PROJECT_DIR$/util-other/util-other.iml" />
       <module fileurl="file://$PROJECT_DIR$/util-security/util-security.iml" filepath="$PROJECT_DIR$/util-security/util-security.iml" />
     </modules>
   </component>
